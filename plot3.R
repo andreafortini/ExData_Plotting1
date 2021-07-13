@@ -13,7 +13,7 @@ png("plot3.png", width = 480, height = 480)
 with(data_valid,
      plot(Sub_metering_1,
           type = "l",
-          ylab = "Global Active Power (kilowatts)",
+          ylab = "Energy sub metering",
           xlab = "",
           xaxt = "n",
           col = "black"

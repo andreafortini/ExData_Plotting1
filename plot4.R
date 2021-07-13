@@ -23,14 +23,14 @@ with(data_valid, {
     # Second plot - topright
     plot(Voltage,
          type = "l",
-         ylab = "Global Active Power (kilowatts)",
+         ylab = "Voltage",
          xlab = "",
          xaxt = "n"
     )
     # Third plot - bottomleft
     plot(Sub_metering_1,
          type = "l",
-         ylab = "Global Active Power (kilowatts)",
+         ylab = "Energy sub metering",
          xlab = "",
          xaxt = "n",
          col = "black"
@@ -42,7 +42,7 @@ with(data_valid, {
     # Fourth plt - bottomright
     plot(Global_reactive_power,
          type = "l",
-         ylab = "Global Active Power (kilowatts)",
+         ylab = "Global_reacting_power",
          xlab = "",
          xaxt = "n"
     )
